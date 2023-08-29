@@ -45,7 +45,7 @@ export default class Todo extends Component {
                         ))
                     }
                 </ol>
-                <h1>Hello</h1>
+                
             </div>
 
 

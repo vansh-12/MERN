@@ -7,8 +7,8 @@ function OutputBanner(props) {
       <ol>
         {props.list.map((item,idx)=>{
             return <li key={idx}>
-            <p>{item}{idx}</p>
-            <button>-</button>
+            <p className="text-monospace">{item}</p>
+            <button className='btn btn-primary'>-</button>
             </li>
         })}
       </ol>
